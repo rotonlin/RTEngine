@@ -19,6 +19,7 @@ add_executable(RTEngine
 #includes
 target_include_directories(RTEngine PUBLIC
 	Source
+	ThirdPartys/glm
 )
 
 #defines
