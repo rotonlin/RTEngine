@@ -1,0 +1,24 @@
+[submodule "ThirdPartys/rttr"]
+	path = ThirdPartys/rttr
+	url = https://github.com/rttrorg/rttr.git
+[submodule "ThirdPartys/bgfx"]
+	path = ThirdPartys/bgfx
+	url = https://github.com/bkaradzic/bgfx.git
+[submodule "ThirdPartys/cereal"]
+	path = ThirdPartys/cereal
+	url = https://github.com/USCiLab/cereal.git
+[submodule "ThirdPartys/glm"]
+	path = ThirdPartys/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "ThirdPartys/assimp"]
+	path = ThirdPartys/assimp
+	url = https://github.com/assimp/assimp.git
+[submodule "ThirdPartys/imgui"]
+	path = ThirdPartys/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "ThirdPartys/spdlog"]
+	path = ThirdPartys/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "ThirdPartys/openal-soft"]
+	path = ThirdPartys/openal-soft
+	url = https://github.com/kcat/openal-soft.git
