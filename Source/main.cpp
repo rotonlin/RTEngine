@@ -1,5 +1,6 @@
 #include <iostream>
-#include "Core/GeneratorTest.h"
+#include "Core/Math/Line.h"
+#include "Core/Math/Ray.h"
 
 #include <glm/vec3.hpp> // glm::vec3
 #include <glm/vec4.hpp> // glm::vec4
@@ -21,7 +22,13 @@ int main(int argc, char* argv[])
 {
 	glm::mat4 Projectin = camera(10, glm::vec2(1, 2));
 
-	GeneratorTest test;
 	std::cout << "Hello" << std::endl;
-	test.hello();
+
+
+	RTEngine::Line line(glm::vec3(1, 2, 3), glm::vec3(2, 3, 4));
+	float l = line.length();
+	float l2 = line.lengthSq();
+	//Line
+
+	RTEngine::Ray ray(glm::vec3(1, 2, 3), glm::vec3(2, 3, 4));
 }

@@ -8,12 +8,9 @@ project (RTEngine)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_HOME_DIRECTORY}/build/lib)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_HOME_DIRECTORY}/build/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_HOME_DIRECTORY}/build/bin)
-  
-add_subdirectory(Source)
-
+ 
 add_executable(RTEngine
 	Source/main.cpp
-	Source/Core/GeneratorTest.cpp
 )
 
 #includes
