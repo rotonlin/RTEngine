@@ -8,20 +8,21 @@ project (RTEngine)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_HOME_DIRECTORY}/build/lib)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_HOME_DIRECTORY}/build/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_HOME_DIRECTORY}/build/bin)
- 
+
 add_executable(RTEngine
 	Source/main.cpp
+	Tests/MathTest.cpp
 )
 
 #includes
 target_include_directories(RTEngine PUBLIC
 	Source
 	ThirdPartys/glm
+	ThirdPartys/Catch2
 )
 
 #defines
 target_compile_definitions(RTEngine PUBLIC
 	#_RTE_EDITOR_
+	_ENABLE_TEST_
 )
-
-#target RTEngine propertys

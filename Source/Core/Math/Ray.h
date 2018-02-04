@@ -1,7 +1,6 @@
 #pragma once
 
 #include "Core/PreDefines.h"
-#include "glm/glm.hpp"
 
 NSBEGIN
 

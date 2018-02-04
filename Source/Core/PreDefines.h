@@ -15,6 +15,13 @@
 #include <type_traits>
 #include <queue>
 #include <stack>
+#include <cfloat>
+#include <cstdint>
+
+#include <glm/glm.hpp>
+#include <glm/gtc/quaternion.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/constants.hpp>
 
 #define NSBEGIN namespace RTEngine {
 #define NSEND	}

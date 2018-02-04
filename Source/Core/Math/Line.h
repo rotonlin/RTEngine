@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Core/PreDefines.h"
-#include "glm/glm.hpp"
+#include "Core/Math/MathUtil.h"
 
 NSBEGIN
 
@@ -20,8 +20,7 @@ public:
 
 	FORCE_INLINE float lengthSq()
 	{
-		glm::vec3 t = end - start;
-		return t.x * t.x + t.y * t.y + t.z * t.z;
+		return RTEngine::magnitudeSq(start, end);
 	}
 
 	glm::vec3 start;
